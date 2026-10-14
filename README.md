@@ -18,6 +18,14 @@ The designed review flow is:
 
 These describe the design direction; they do not imply every stage is implemented in this pilot.
 
+## System architecture
+
+![VendorLens system architecture: evidence, policy, controlled investigation and human review](assets/vendorlens-architecture.png)
+
+[View full-size diagram](assets/vendorlens-architecture.png) · [Download the editable Excalidraw diagram](assets/vendorlens-architecture.excalidraw)
+
+This is the full product design. The implemented local pilot covers intake, document processing, evidence validation and the ledger; the broader policy, agent-control and human-decision flows describe the design.
+
 ## What is in this repository
 
 - **Case intake:** create cases, accept four required PDF categories, preserve source files, and record intake events.
